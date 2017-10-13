@@ -1,0 +1,118 @@
+﻿Configuração basica do GIT
+
+	git config --global user.name "nsadriano"   --> Configura o nome de usuário
+
+	git config --global user.email "ns.adriano@gmail.com"   --> Configura a conta de e-mail
+
+	gitgit config user.name   --> Exibe o usuário que foi configurado
+
+	gitgit config user.email   --> Exibe o email que foi configurado
+
+	gitgit config --list   --> Exibe todas as configurações do git
+
+	git status  --> Exibe o estado atual do repositorio
+	
+
+Inicializando um Repositorio
+
+	git init --> Inicializa um repositorio. Necessário está dentro da pasta que será o repositorio.
+	
+
+Ligando um repositorio local em um repositorio remoto
+
+	git remote add origin https://github.com/nsadriano/git-course.git
+
+	git push -u origin master
+	
+	git remote -v --> Verifica o repositorio 
+	
+	git pull [OPTIONS] origin master   --> Sincroniza local com remoto
+
+	
+Adicionando arquivos, commitando e adicionando ao repositorio remoto
+
+	git add arquivo.php  --> Adiciona o arquivo. Necessário executar sempre que o arquivo for modificado.
+	
+	git commit -am "Mensagem qualquer. O que foi modificado"   --> Faz o commit dos arquivos modificados.
+	
+	git push origin master  --> Enviando os arquivos comitados para o repositorio remoto 
+	
+	
+Clonando um repositorio
+
+	git clone git@github.com:willianjusten/dotfiles.git nome_para_o_repositorio
+
+	
+Visualizando logs
+
+	git log
+	
+	git log --decorate
+		
+	git log --author="Adriano"  --> Lista todos os commit de um usuário especifico 
+		
+	git shortlog   --> Lista em ordem alfabetica com mais detalhes
+		
+	git shortlog -sn   --> Mostra apenas os autores com as quantidades de commit de cada um.
+		
+	git log --graph    --> Mostra detalhes em forma grafica 
+		
+	git show hash_do_commit  --> Exibe detalhes do commit especifico 
+		
+	git diff   --> Exibe modificações antes de serem commitadas.
+		
+	git diff --name-only   --> Exibe apenas os arquivos modificados.
+		
+
+Desfazendo coisas/rollback
+
+	git checkout Nome_do_Arquivo  --> Retorna o status antes de ser adicionado 
+		
+	git reset HEAD Nome_do_Arquivo  --> Remove o arquivo do status stage, antes de ser commitado. Executar o git checkout Nome_do_Arquivo em seguida.
+		
+	git reset --hard Hash_do_Commit  --> Volta o arquivo que foi commitado por engano. A hash tem que ser de um estado anterior.
+
+		--soft  --> Volta o arquivo e  deixa no status staged
+		--mixed --> Volta o arquivo para Modified
+		--hard  --> Volta tudo, mata todo o commit
+		
+		Obs. O --hard deve ser usado com muito cuidado. 
+		
+		
+Criando um branch 
+
+	git checkout -b nome_branch 
+	
+	git branch  --> Exibe os branch existentes
+	
+	git checkout nome_branch --> navega entre os branchs
+	
+Deletando branch
+
+	git branch -D nome_branch  --> Apaga um branch 
+	
+
+Merge de branchs 
+	
+	git merge nome_branch
+	
+	git rebase nome_branch
+	
+	Obs. melhor utilizar o rebase 
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+

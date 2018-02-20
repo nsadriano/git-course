@@ -14,10 +14,23 @@ Deletando branch
 	git branch -D nome_branch  --> Apaga um branch 
 	
 
+
 Merge de branches 
 	
 	git merge nome_branch
 	
+	Pro e contra:
+		Pro - Operação não destrutiva
+		Contra - Gera commit extra (cria um ciclo - forma de diamante)
+		Contra - Deixa historico poluido
+	
+	
+	
+Rebase de Branches
 	git rebase nome_branch
 	
-	Obs. melhor utilizar o rebase 
+	Pro e contra:
+		Pro - Evita commit extra
+		Pro - Historico Linear
+		Contra - Perde ordem cronologica
+		

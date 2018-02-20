@@ -1,0 +1,8 @@
+Branche é um ponteiro que leva a um commit
+
+Vantagem em utilizar Branches:
+- Poder modificar sem alterar o local principal
+- Facilmente "Desligável"
+- Multiplas pessoas trabalhando em Branches diferentes
+- Evita conflitos
+

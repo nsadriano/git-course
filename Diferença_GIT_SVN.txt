@@ -1,0 +1,9 @@
+Controle de Versão
+
+SVN -> Trabalha copiando apenas as diferenças dos arquivos
+GIT -> Trabalha com os estados dos arquivos (Snapshots) 
+
+Github é um serviço de web compartilhado para projetos que utilizam o Git 
+
+git != github
+

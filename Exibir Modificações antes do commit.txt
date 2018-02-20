@@ -1,0 +1,5 @@
+Exibir Modificações do arquivo antes de serem comitadas
+	
+	git diff   --> Exibe modificações antes de serem commitadas.
+		
+	git diff --name-only   --> Exibe apenas o nome dos arquivos que foram modificados.

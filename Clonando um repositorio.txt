@@ -1,0 +1,3 @@
+Clonando um repositorio
+
+	git clone git@github.com:willianjusten/dotfiles.git nome_para_o_repositorio

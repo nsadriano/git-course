@@ -1,0 +1,23 @@
+Criando um branch 
+
+	git checkout -b nome_branch 
+	
+
+Exibindo os branch existentes
+	git branch
+	
+	git checkout nome_branch --> navega entre os branchs
+	
+
+Deletando branch
+
+	git branch -D nome_branch  --> Apaga um branch 
+	
+
+Merge de branches 
+	
+	git merge nome_branch
+	
+	git rebase nome_branch
+	
+	Obs. melhor utilizar o rebase 

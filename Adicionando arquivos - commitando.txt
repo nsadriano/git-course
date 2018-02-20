@@ -1,0 +1,7 @@
+Adicionando arquivos - commitando e adicionando ao repositorio remoto
+
+	git add arquivo.php  --> Adiciona o arquivo. Necessário executar sempre que o arquivo for modificado.
+	
+	git commit -am "Mensagem qualquer. O que foi modificado"   --> Faz o commit dos arquivos modificados.
+	
+	git push origin master  --> Enviando os arquivos comitados para o repositorio remoto 

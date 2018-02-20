@@ -1,0 +1,21 @@
+Desfazendo coisas/rollback - Voltar Versão
+
+
+Retorna o status antes de ser adicionado, 
+usado quando o arquivo é modificado e salvo mas ainda não foi adicionado
+	git checkout Nome_do_Arquivo
+		
+
+Remove o arquivo do status stage (Após o add), antes de ser commitado. 
+Executar o git checkout Nome_do_Arquivo em seguida.
+	git reset HEAD Nome_do_Arquivo
+		
+
+Retorna o arquivo que foi commitado por engano. A hash tem que ser de um estado anterior.
+	git reset --hard Hash_do_Commit
+
+		--soft  --> Volta o arquivo e deixa no status staged
+		--mixed --> Volta o arquivo para Modified
+		--hard  --> Volta tudo, mata todo o commit
+		
+		Obs. O --hard deve ser usado com muito cuidado. 

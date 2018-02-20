@@ -1,0 +1,43 @@
+﻿Configuração basica do GIT
+
+	git config --global user.name "nsadriano"   --> Configura o nome de usuário
+
+	git config --global user.email "ns.adriano@gmail.com"   --> Configura a conta de e-mail
+
+	git config user.name   --> Exibe o usuário que foi configurado
+
+	git config user.email   --> Exibe o email que foi configurado
+	
+	git confir --global core.editor  --> Configura o editor padrão (Opcional)
+	
+	git config --list   --> Exibe todas as configurações do git
+
+	git status  --> Exibe o estado atual do repositorio
+	
+
+Inicializando um Repositorio
+
+	git init --> Inicializa um repositorio. Necessário está dentro da pasta que será o repositorio.
+	
+
+
+		
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+

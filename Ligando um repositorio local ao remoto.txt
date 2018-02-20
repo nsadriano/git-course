@@ -1,0 +1,9 @@
+Ligando um repositorio local ao remoto
+
+	git remote add origin https://github.com/nsadriano/git-course.git
+
+	git push -u origin master
+	
+	git remote -v --> Verifica o repositorio 
+	
+	git pull [OPTIONS] origin master   --> Sincroniza local com remoto

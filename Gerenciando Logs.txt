@@ -1,0 +1,23 @@
+Visualizando logs
+
+	git log
+	
+	git log --decorate
+		
+Exibe detalhes do commit especifico 
+	git show hash_do_commit
+		
+Listar todos os commit de um usuário especifico
+	git log --author="nsadriano" 
+		
+Listar em ordem alfabetica com mais detalhes
+	git shortlog
+		
+Mostrar apenas os autores com as quantidades de commit de cada um.
+	git shortlog -sn
+		
+Mostra detalhes em forma grafica 
+	git log --graph
+		
+Exibe detalhes do commit especifico 
+	git show hash_do_commit

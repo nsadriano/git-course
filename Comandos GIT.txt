@@ -4,11 +4,13 @@
 
 	git config --global user.email "ns.adriano@gmail.com"   --> Configura a conta de e-mail
 
-	gitgit config user.name   --> Exibe o usuário que foi configurado
+	git config user.name   --> Exibe o usuário que foi configurado
 
-	gitgit config user.email   --> Exibe o email que foi configurado
-
-	gitgit config --list   --> Exibe todas as configurações do git
+	git config user.email   --> Exibe o email que foi configurado
+	
+	git confir --global core.editor  --> Configura o editor padrão (Opcional)
+	
+	git config --list   --> Exibe todas as configurações do git
 
 	git status  --> Exibe o estado atual do repositorio
 	

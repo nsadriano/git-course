@@ -1,0 +1,6 @@
+
+Reverte o commit para versão anterior
+
+git revert hash_do_commit
+
+Pro - Não apaga o historico como o hard e o soft
